@@ -22,10 +22,10 @@ AsyncServer* AsyncServerChargen = nullptr;
 
 // Structure for the client state and static array
 struct ClientState {
-  AsyncClient* client = NULL;    // Pointer to the AsyncClient object. NULL means free slot.
-  int startIndex = 0;            // Tracks the index within the 95-character string where the next 72-character line to be sent should start.
+  AsyncClient* client = NULL;        // Pointer to the AsyncClient object. NULL means free slot.
+  int startIndex = 0;                // Tracks the index within the 95-character string where the next 72-character line to be sent should start.
 };
-ClientState clients[MAX_CLIENTS]; // Static array to manage connections
+ClientState clients[MAX_CLIENTS];    // Static array to manage connections
 
 // 1. Finds the state associated with a given client.
 ClientState* findClientState(AsyncClient* client) {
