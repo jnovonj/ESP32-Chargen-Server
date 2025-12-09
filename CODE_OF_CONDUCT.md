@@ -33,7 +33,3 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct/.
 
 ---
-
-# Código de Conducta (resumen en español)
-
-Este proyecto sigue como referencia el Contributor Covenant v2.1. Se espera que las interacciones sean respetuosas y constructivas. Para reportar un incidente contacta a `jnovonj@gmail.com`.

@@ -4,7 +4,7 @@
 #include <AsyncTCP.h>
 
 // --- Configuration ---
-#define MAX_CLIENTS 4           // Maximum number of simultaneous connections the array can handle.
+#define MAX_CLIENTS 5           // Maximum number of simultaneous connections the array can handle.
 #define CHARGEN_PORT 19
 const int LINE_LENGTH = 72;
 
